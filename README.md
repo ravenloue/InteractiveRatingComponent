@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [x](https://www.frontendmentor.io/solutions/interactive-rating-component-JQDB_XbYCT)
+- Live Site URL: [x](https://ravenloue.github.io/InteractiveRatingComponent/)
 
 ## My process
 
@@ -50,8 +50,7 @@ Users should be able to:
 
 Thanks to my recent practice with JavaScript event listeners; the scripting portion of the assignment took very little time. My CSS skills are a bit rusty; however, and I spent far too long trying to get the circular elements the correct shape.
 
-- 2023
-  - January 23
+- 2023, January 23
     - Completed the project after about 4.5 hours.
 
 ### Continued development
