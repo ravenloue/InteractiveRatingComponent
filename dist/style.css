@@ -1,0 +1,156 @@
+html {
+  height: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216deg, 12%, 8%);
+  font-family: "Overpass", sans-serif;
+  line-height: 1.5rem;
+}
+
+main {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  color: hsl(0deg, 0%, 100%);
+}
+
+.container__card {
+  border-radius: 1rem;
+  background-image: radial-gradient(at top, hsl(213deg, 19%, 18%), hsl(228deg, 11%, 9%));
+  max-width: 20.375rem;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  align-self: auto;
+}
+.container__text {
+  margin: auto;
+  max-width: 17.5rem;
+}
+.container__text h1 {
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+.container__text p {
+  font-weight: 400;
+  color: hsl(217deg, 12%, 63%);
+}
+.container__star img {
+  border-radius: 50%;
+  background-color: hsl(216deg, 16%, 19%);
+  padding: 0.75rem;
+  display: block;
+  margin: 1.325rem;
+}
+.container__btn {
+  margin-left: 1rem;
+  margin-right: auto;
+}
+.container__btn button {
+  width: 2.75rem;
+  height: 2.75rem;
+  cursor: pointer;
+  background-color: hsl(216deg, 16%, 19%);
+  border: none;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: "Overpass", sans-serif;
+  color: hsl(217deg, 12%, 63%);
+  margin: 0.25rem;
+}
+.container__btn *, .container__btn *:hover {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container__btn *, .container__btn *:focus {
+  background-color: hsl(216deg, 12%, 54%);
+  color: hsl(0deg, 0%, 100%);
+}
+.container__submit {
+  margin-left: 1.5rem;
+}
+.container__submit input {
+  cursor: pointer;
+  background-color: hsl(25deg, 97%, 53%);
+  padding: 0.625rem 6.625rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-family: "Overpass", sans-serif;
+  letter-spacing: 0.125rem;
+  color: hsl(0deg, 0%, 100%);
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.container__submit *, .container__submit *:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+.container__tyImg {
+  margin: auto;
+  margin-top: 2rem;
+}
+.container__rating {
+  display: block;
+  margin: 0.75rem 5.5rem;
+  background-color: hsl(216deg, 16%, 19%);
+  border-radius: 1rem;
+  padding: 0.25rem;
+  color: hsl(25deg, 97%, 53%);
+  font-size: 0.825rem;
+  font-weight: 400;
+}
+
+.rating {
+  text-align: left;
+}
+.rating h1 {
+  font-size: 1.25rem;
+}
+.rating p {
+  font-size: 0.75rem;
+}
+
+.thanks {
+  text-align: center;
+}
+.thanks h1 {
+  font-size: 1.5rem;
+}
+.thanks p {
+  font-size: 0.825rem;
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 640px) and (min-width: 240px) {
+  .container__card {
+    max-width: 20.375rem;
+  }
+}

@@ -1,7 +1,7 @@
 # InteractiveRatingComponent
  A small project that handles user interactions and updating the DOM with JavaScript from Frontend Mentor
 
-This will be a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Screenshot
 
-No screencap yet.
+![ratingsPage](./images/ratingSS.png)
+![thanksPage](./images/thanksSS.png)
 
 ### Links
 
@@ -42,23 +43,25 @@ No screencap yet.
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - Mobile-first workflow
+- JavaScript
 
 ### What I learned
 
-I'm going to time myself and see how long it takes me to build a solution.
-
-### Continued development
+Thanks to my recent practice with JavaScript event listeners; the scripting portion of the assignment took very little time. My CSS skills are a bit rusty; however, and I spent far too long trying to get the circular elements the correct shape.
 
 - 2023
   - January 23
-    - Beginning the project at 11:45am
+    - Completed the project after about 4.5 hours.
+
+### Continued development
+
+Since I spent way too long with CSS, I'm going to continue with the Frontend Mentor challenges. This will allow me to become better with JavaScript while maintaining my understanding of CSS. 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [RGB to HSL](https://www.rapidtables.com/convert/color/rgb-to-hsl.html) - I found this super helpful for determining equivalents when trying to add a few extra colors 
+- [W3Schools CSS Reference Sheet](https://www.w3schools.com/cssref/) - Very handy resource! I'm going to continue with this one
 
 ## Author
 

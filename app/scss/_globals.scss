@@ -1,0 +1,34 @@
+html{
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $veryDarkGrey;
+    font-family: 'Overpass', sans-serif;
+    line-height: 1.5rem;
+}
+
+main{
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    color: $white;
+}

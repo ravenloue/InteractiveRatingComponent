@@ -1,0 +1,133 @@
+.container{
+
+    &__card{
+        border-radius: 1rem;
+        background-image: radial-gradient(at top,$darkBlue, $veryDarkBlue);
+        max-width: 20.375rem;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position: fixed;
+        align-self: auto;
+        }
+    &__text{
+        margin: auto;
+        max-width: 17.5rem;
+        
+        h1{
+            font-weight: 700;            
+            color: $white;
+        }
+        p{
+            font-weight: 400;            
+            color: $lightGrey;
+        }
+    }
+    // Styles specific to the rating card
+    &__star{
+        img{
+            border-radius: 50%;
+            background-color: $mediumDarkBlue;
+            padding: .75rem;
+            display: block;
+            margin: 1.325rem;
+        }
+    }
+    &__btn{
+            margin-left: 1rem;
+            margin-right: auto;
+
+        button{
+            width: 2.75rem;
+            height: 2.75rem;
+            cursor: pointer;
+            background-color: $mediumDarkBlue;            
+            border: none;
+            border-radius: 50%;
+            font-size: .75rem;
+            font-weight: 700;
+            font-family: 'Overpass', sans-serif;
+            color: $lightGrey;
+            margin: .25rem;
+        }
+        *, *:hover{
+            background-color: $orange;
+            color: $white;
+        }
+        *,*:focus{
+            background-color: $mediumGrey;
+            color: $white;
+        }
+    }
+    &__submit{
+        margin-left: 1.5rem;
+        input{
+            cursor: pointer;
+            background-color: $orange;
+            padding: .625rem 6.625rem;
+            border: none;
+            border-radius: 1.5rem;
+            font-size: .75rem;
+            font-weight: 700;
+            font-family: 'Overpass', sans-serif;
+            letter-spacing: .125rem;
+            color: $white;
+            margin: auto;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+        }
+        *, *:hover{
+            background-color: $white;
+            color: $orange;
+        }
+    }
+
+    // Styles specific to the Thanks card
+    &__tyImg{
+        margin: auto;
+        margin-top: 2rem;
+    }
+    &__rating{
+        display: block;
+        margin: .75rem 5.5rem;
+        background-color: $mediumDarkBlue;
+        border-radius: 1rem;
+        padding: .25rem;
+        color: $orange;
+        font-size: .825rem;
+        font-weight: 400;
+    }
+}
+
+.rating{
+    text-align: left;
+    h1{
+        font-size: 1.25rem;
+    }
+    p{
+        font-size: .75rem;
+    }
+}
+.thanks{
+    text-align: center;
+    //margin-bottom: 1rem;
+    h1{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: .825rem;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+// Mobile specific adjustments
+@media only screen and (max-width: 640px) and (min-width: 240px){
+    .container{
+        &__card{
+            max-width: 20.375rem;          
+        }
+    }
+}
